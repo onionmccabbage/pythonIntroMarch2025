@@ -53,3 +53,16 @@ for i in f: # the colon indicates the start of a code block
 # when we no longer indent the code, that is the end of the code block
 print('oustide the code block')
 
+# the dictionary data-type
+# a dict is a non-ordinal mutable collection of key-value pairs (of any data type)
+h = {'id':'Timnit', 'age':42, 'level':'superuser', 65:66} # keys can alsoi be of any data type
+# CAREFUL - normally stick to strings for the keys
+h['age'] = 43
+h['state']='NY'
+print(h, type(h))
+print(f'Person {h["id"]} is a {h["level"]}')
+# we can only slice ordinal collections (so not DICT)
+# to iterate a dict we MUST use .items()
+# NB there is no predictable order to the members of a dict
+for k,v in h.items(): # we iterate the items within teh dictionary
+    print(k, v)
