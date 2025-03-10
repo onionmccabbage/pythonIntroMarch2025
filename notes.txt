@@ -28,7 +28,7 @@ Monday
 - type and type conversion
 - the if statement for conditional logic
 - for, while, break and pass
-- validate inpu
+- validate input
 - after lunch review exercise
 - dictionaries (non-numeric indexed iterable collections)
 - import, libraries and modules
@@ -73,7 +73,7 @@ Wednesday
 - review exercise
 - venv see https://python.land/virtual-environments/virtualenv
 - end of course feedback:
-  
+    https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/07d5c937-43ca-443c-8e12-5b8872f3f
 
 
 
