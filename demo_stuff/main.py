@@ -2,7 +2,8 @@
 # import utility # you can define a path the the module
 import my_lib.my_tools # we can import from any path
 from my_lib.utility import makeInt
-
+# we may import from other packages
+# import .//..//other_lib.stuff
 
 # we can now use the code from other modules
 i = makeInt(3.21)

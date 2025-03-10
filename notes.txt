@@ -39,6 +39,7 @@ q - how can we deal with e.g. buffer overflow
 
 Tuesday
 - how to access course recordings
+q - import from a package up a level or absolute
 - quick review of where we got to
 - Python 2 awareness...
   see https://python.land/migrating-from-python-2-to-3/how-to-migrate-to-python-3
