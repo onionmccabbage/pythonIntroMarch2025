@@ -20,7 +20,7 @@ Monday
 > print() and input()
 > maths operators and data types
 > indentation
-q - can we make a single file to execute ANYWHERE even if POython is not on the other machine
+q - can we make a single file to execute ANYWHERE even if Python is not on the other machine
 > immutable strings
 > print formatting
 > lists and tuples (and memory efficiency)

@@ -1,4 +1,4 @@
-Review 1  show-and-tell
+Review 1 45 minutes until 2:50 (then show-and-tell)
 ========
 Ask the user to enter a guess, until they guess correctly 
 (Guess an integer between 0 and 100)
