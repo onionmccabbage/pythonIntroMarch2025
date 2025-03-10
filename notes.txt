@@ -20,7 +20,7 @@ Monday
 > print() and input()
 > maths operators and data types
 > indentation
-q - can we makea single file to execute ANYWHERE even if POython is not on the other machine
+q - can we make a single file to execute ANYWHERE even if POython is not on the other machine
 > immutable strings
 > print formatting
 > lists and tuples (and memory efficiency)
@@ -30,6 +30,7 @@ q - can we makea single file to execute ANYWHERE even if POython is not on the o
 - the if statement for conditional logic
 - for, while, break and pass
 - validate input
+q - how can we deal with e.g. buffer overflow
 - after lunch review exercise
 - dictionaries (non-numeric indexed iterable collections)
 - import, libraries and modules
