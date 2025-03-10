@@ -13,3 +13,16 @@ def makeRandNumber():
 # sometimes we need to call a function repeatedly
 for i in range(0,10): # range givves us values between (start, stop-before)
     print( makeRandNumber() )
+
+# ask the user to guess a random number
+def game():
+    '''generate a random number, then keep asking t he user to guess until correct'''
+    answer = random.randint(-10,10)
+    while True:
+        # ask the user to guess
+        guess = input('guess a number: ')
+        # check to see if they are correct
+        if str(answer) == guess:
+            print('correct')
+            break # this ends the while loop
+    
