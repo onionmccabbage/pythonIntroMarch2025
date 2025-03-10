@@ -16,7 +16,8 @@ def game():
     is_prime  = target in primes_t
     # keep the game running
     guess_counter = 0
-    while True: # keep going!!
+    gameplay=True
+    while gameplay: # keep going!!
         guess_counter += 1
         guess = int(float(input('guess:'))) # make sure it's an int
         # conditionally act on the guess
@@ -25,7 +26,8 @@ def game():
         elif guess == -1: # do they want to quit
             print (f'it was {target}' )
             guess = target # break # stops the current loop
-            break # break out of the function
+            # break # break out of the function
+            gameplay=False
         elif guess > target: # is the guess too high
             print('too high')
         elif guess < target: # is the guess too low (could be an else clause)
