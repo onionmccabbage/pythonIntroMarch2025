@@ -33,6 +33,23 @@ f.pop() # remove the last member
 print( f, type(f) )
 
 # a tuple is an immutable ordinal collection of any data type
-g = (7,6,5)
-g[1] = 'oops' # this will raise an exception
+g = (7,6,5, a, f, e)
+# g[1] = 'oops' # this will raise an exception
 print( g, type(g) )
+
+# difference between list and tuple is mutability
+# always start by using a tuple and only use list if you need mutability - this is efficiency
+
+# iteration (loops)
+# we may iterate over ANY ordinal collection
+for i in e:
+    print(i)
+
+# Python code is very fussy about indentation
+for i in f: # the colon indicates the start of a code block
+    print(i) # every line within teh code block MUST be indented
+    print(type(i))
+
+# when we no longer indent the code, that is the end of the code block
+print('oustide the code block')
+
