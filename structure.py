@@ -28,6 +28,12 @@ def fnAlt(a, b):
     return r
     # return f'{r['total']}{r['diff']}{r['prod']}{}{}{}'
 
+def fnC(x=3, y=4): # we may choose to provide default values for any arguments
+    '''calculate the hypotenuse given x and y'''
+    h = (x**2+y**2)**0.5 # raise to **0.5 is the square root
+    return f'The hypotenuse of {x} and {y} is {h}'
+
+
 # we may call the function
 r = fnA() # the () invoke the function (it runs)
 print( r, type(fnA) )  
@@ -35,3 +41,12 @@ print( r, type(fnA) )
 print( fnB(3, 12.9) )
 
 print(fnAlt(4,5))
+
+# we may call a function and use its defaults
+print( fnC() ) # 5.0
+# or we may override the defaults
+print( fnC(-3, -4) )
+
+# we may ask the user to provide data
+v = input()
+print(v, type(v))
