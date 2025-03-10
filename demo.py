@@ -3,3 +3,12 @@
 i = input('value: ')
 num = int(float(i))
 print(num, type(num))
+
+def validate():
+    pass
+
+def getData():
+    pass
+
+def util():
+    pass

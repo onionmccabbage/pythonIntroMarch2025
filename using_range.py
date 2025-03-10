@@ -3,6 +3,7 @@
 a = range(0,10) # (start, stop-before, step)
 print(a, type(a))
 for i in a:
+    pass # do nothing!!!
     print(i)
 
 

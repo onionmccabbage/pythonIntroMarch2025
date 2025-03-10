@@ -20,19 +20,19 @@ Monday
 > print() and input()
 > maths operators and data types
 > indentation
-q - can we make a single file to execute ANYWHERE even if Python is not on the other machine
+> Docker: can we make a single file to execute ANYWHERE even if Python is not on the other machine
 > immutable strings
 > print formatting
 > lists and tuples (and memory efficiency)
 > identifiers
 > boolean True and False
 > type and type conversion
-- the if statement for conditional logic
-- for, while, break and pass
-- validate input
+> the if statement for conditional logic
+> for, while, break and pass
+> validate input
 q - how can we deal with e.g. buffer overflow
-- after lunch review exercise
-- dictionaries (non-numeric indexed iterable collections)
+> after lunch review exercise
+> dictionaries (non-numeric indexed iterable collections)
 - import, libraries and modules
   to see what libraries are already installed: pip list
 - functions
@@ -54,7 +54,8 @@ Tuesday
 - exception handling (try-except etc.)
 - debug tools   
 - review exercise
-- File input and output
+- sys.  limits
+- File input and output - including realine and buffering
 
 Wednesday
 - in Python EVERTHING is an Object - every function, every class every module....

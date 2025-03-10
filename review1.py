@@ -31,9 +31,11 @@ def game():
         elif guess > target: # is the guess too high
             print('too high')
         elif guess < target: # is the guess too low (could be an else clause)
+                pass # just go to the next line
                 print('too low')
         else:
             print(f'correct it was {target} you took {guess_counter} tries' )
             break
+        continue # this will skip back to the top of the loop
 
 game()
