@@ -14,18 +14,19 @@ Toby Dussek
 All my code will be here: https://github.com/onionmccabbage/pythonIntroMarch2025
 
 Monday
-- Welcome and intros
-- where to write code: module (just a file) or immediate python
-- architecture, structure, and professional code best practice
-- print() and input()
-- maths operators and data types
-- indentation
-- immutable strings
-- print formatting
-- lists and tuples (and memory efficiency)
-- identifiers
-- boolean True and False
-- type and type conversion
+> Welcome and intros
+> where to write code: module (just a file) or immediate python
+> architecture, structure, and professional code best practice
+> print() and input()
+> maths operators and data types
+> indentation
+q - can we makea single file to execute ANYWHERE even if POython is not on the other machine
+> immutable strings
+> print formatting
+> lists and tuples (and memory efficiency)
+> identifiers
+> boolean True and False
+> type and type conversion
 - the if statement for conditional logic
 - for, while, break and pass
 - validate input
