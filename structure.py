@@ -16,8 +16,22 @@ def fnB(a, b): # optionally a function may recieve variables (also called argume
     rem   = b%a  # show the remainder after integer division
     return (total, diff, prod, pow, modulo, rem) # a tuple of all my results
 
+# demo alternative
+def fnAlt(a, b): 
+    r = {}
+    r['total'] = a+b
+    r['diff']  = a-b
+    r['prod']  = a*b
+    r['pow']   = a**b
+    r['modulo']= b//a # modulo arithmetic - show integer division
+    r['rem']  = b%a  # show the remainder after integer division
+    return r
+    # return f'{r['total']}{r['diff']}{r['prod']}{}{}{}'
+
 # we may call the function
 r = fnA() # the () invoke the function (it runs)
 print( r, type(fnA) )  
 
 print( fnB(3, 12.9) )
+
+print(fnAlt(4,5))
