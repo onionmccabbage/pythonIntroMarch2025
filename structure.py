@@ -12,12 +12,12 @@ def fnB(a, b): # optionally a function may recieve variables (also called argume
     diff  = a-b
     prod  = a*b
     pow   = a**b
-    modulo= b//a
-    rem   = b%a
-    return (total, diff, prod, pow, modulo, rem) # a list of all my results
+    modulo= b//a # modulo arithmetic - show integer division
+    rem   = b%a  # show the remainder after integer division
+    return (total, diff, prod, pow, modulo, rem) # a tuple of all my results
 
 # we may call the function
 r = fnA() # the () invoke the function (it runs)
 print( r, type(fnA) )  
 
-print( fnB() )
+print( fnB(3, 12.9) )
