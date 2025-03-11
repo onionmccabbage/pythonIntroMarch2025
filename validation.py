@@ -29,3 +29,7 @@ except TypeError as te:
     print(f'Problem: {te}')
 except Exception as err:
     print('Unexpected exception')
+
+# now validate the number
+v = validateNum(val)
+print(v)

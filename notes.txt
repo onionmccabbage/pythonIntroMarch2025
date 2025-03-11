@@ -54,7 +54,7 @@ Tuesday
   (NB be careful - may not work within WSL) - ok with WSL 24
 - strings with triple quotes
 > the nature of file access objects
-- exception handling (try-except etc.)
+> exception handling (try-except etc.)
 - debug tools   
 - review exercise
 - sys.  limits
