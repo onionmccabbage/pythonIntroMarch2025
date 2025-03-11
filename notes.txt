@@ -30,16 +30,15 @@ Monday
 > the if statement for conditional logic
 > for, while, break and pass
 > validate input
-q - how can we deal with e.g. buffer overflow
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, libraries and modules
   to see what libraries are already installed: pip list
-- functions
+> functions
 
 Tuesday
-- how to access course recordings
-q - import from a package up a level or absolute
+> how to access course recordings
+> import from a package up a level or absolute - use sys.path.appehnd()
 - quick review of where we got to
 - Python 2 awareness...
   see https://python.land/migrating-from-python-2-to-3/how-to-migrate-to-python-3
@@ -56,6 +55,7 @@ q - import from a package up a level or absolute
 - debug tools   
 - review exercise
 - sys.  limits
+q - how can we deal with e.g. buffer overflow
 - File input and output - including realine and buffering
 
 Wednesday
