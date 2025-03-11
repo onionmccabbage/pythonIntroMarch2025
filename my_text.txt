@@ -23,3 +23,21 @@ more content written to file
 more content written to file
 more content written to file
 more content written to file
+more content written to file
+Category posts member 4 gives the following:
+	userId: 1
+	id: 4
+	title: eum et est occaecati
+	body: ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hic commodi nesciunt rem tenetur doloremque ipsam iure
+quis sunt voluptatem rerum illo velit
+
+more content written to file
+Category photos member 7 gives the following:
+	albumId: 1
+	id: 7
+	title: officia delectus consequatur vero aut veniam explicabo molestias
+	url: https://via.placeholder.com/600/b0f7cc
+	thumbnailUrl: https://via.placeholder.com/150/b0f7cc
+
