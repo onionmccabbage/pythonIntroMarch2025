@@ -52,10 +52,10 @@ Tuesday
   - pip3 install requests
 > using requests (to access web API via HTTP)
   (NB be careful - may not work within WSL) - ok with WSL 24
-- strings with triple quotes
+> strings with triple quotes
 > the nature of file access objects
 > exception handling (try-except etc.)
-- debug tools   
+> debug tools   
 - review exercise
 - sys.  limits
 q - how can we deal with e.g. buffer overflow

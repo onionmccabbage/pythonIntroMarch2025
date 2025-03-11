@@ -11,7 +11,7 @@ def askUser():
 
 # here we check if a value  is either int or float
 def validateNum(n):
-    'Ckeck to see if twe have an int or a float'
+    '''Check to see if we have an int or a float'''
     # in old Python we used || for 'or' we can use && for 'and'  - do not do this!!
     # if type(n) == int or type(n) == float: # or and not are all permitted
     if type(n) in (int, float):
