@@ -39,7 +39,7 @@ Monday
 Tuesday
 > how to access course recordings
 > import from a package up a level or absolute - use sys.path.appehnd()
-- quick review of where we got to
+> quick review of where we got to
 - Python 2 awareness...
   see https://python.land/migrating-from-python-2-to-3/how-to-migrate-to-python-3
 - if __name__ == '__main__'
