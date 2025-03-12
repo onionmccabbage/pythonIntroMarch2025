@@ -65,9 +65,9 @@ Wednesday
 > the next courses: advanced python then further advanced python
 > in Python EVERTHING is an Object - every function, every class every module....
 > any input or output is necessarily slow: I/O bound
-- anything with __nnn__ is part of python (built in features) called 'dunder'
-- functions live in classes, which live in modules which live in packages
-- PEP8 style guide https://pep8.org/
+> anything with __nnn__ is part of python (built in features) called 'dunder'
+> functions live in classes, which live in modules which live in packages
+> PEP8 style guide https://pep8.org/
 - custom generator and yield
 - global and local scope 
 - data modelling structures: 
@@ -76,8 +76,8 @@ Wednesday
   classes have properties (something belonging to the class) and methods (something the class can do)
 > get/set as property decorators @property
 > name mangling (__) and __slots__
-- properties, methods, __str__
-- inheritance
+> properties, methods, __str__
+> inheritance
 - review exercise
 - venv see https://python.land/virtual-environments/virtualenv
 - end of course feedback:

@@ -1,7 +1,7 @@
 Whats do we cover next...
 leave a gap - consolidate your python before attending the next course
 
-Advanced Python (4 days) .. tba (Sept or Oct...)
+Advanced Python (4 days) 15-19 Sept
 - abstract and concrete classes
 - class inheritance
 - overriding built in methods
