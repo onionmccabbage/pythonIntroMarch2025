@@ -5,6 +5,8 @@
 # Global scope refers to everything in a module that is not inside a code block
 # Local scope refers to anything in a module that is inside a code block
 
+# We generally try to avoid polluting the global namespace
+
 x = 'this is in the global scope of this module'
 
 def fn():
