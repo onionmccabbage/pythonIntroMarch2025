@@ -1,6 +1,7 @@
 class Point:
     '''define a point in planar space with numeric values for x and for y'''
     # we slots to restrict members
+    __slots__ = ['__x', '__y'] # the only permitted members of this class are here
     def __init__(self, x, y):
         self.x = x # this calls the setter function to set self.__x
         # self.validateY(y) # this is not common syntax in Python
@@ -16,9 +17,9 @@ class Point:
         else:
             self.__x = 1 # just set a sensible default (we could raise an exception)
     # implement the getter and setter for y
-    @property
+    @property # @property must come before the setter
     def y(self):
-        return self.__y
+        return self.__y # we use double underscore to 'protect' this property from direct access
     @y.setter
     def y(self, new_y):
         if type(new_y) in (int, float):
