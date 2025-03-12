@@ -16,7 +16,15 @@ class Point:
         else:
             self.__x = 1 # just set a sensible default (we could raise an exception)
     # implement the getter and setter for y
-    
+    @property
+    def y(self):
+        return self.__y
+    @y.setter
+    def y(self, new_y):
+        if type(new_y) in (int, float):
+            self.__y = new_y
+        else:
+            self.__y = 1 # or raise an exception
     # def validateY(self, new_y):
     #     if type(new_y) in (int, float):
     #         self.__y = new_y
