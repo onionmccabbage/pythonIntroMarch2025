@@ -29,6 +29,9 @@ class Point:
     # def validateY(self, new_y):
     #     if type(new_y) in (int, float):
     #         self.__y = new_y
+    def __str__(self):
+        '''define how this class should print'''
+        return f'This point is at {self.x} and {self.y}'
 
 if __name__ == '__main__':
     p1 = Point(3,4)
@@ -36,5 +39,9 @@ if __name__ == '__main__':
     # when we try to mutate properties, the setter method is used
     p2.x = 99 # this will run the function to set __x
     # when we try to access properties, the getter method is used
-    # print(p1.x, p1.y) # this will run the function def x() to return __x
-    # print(p2.x, p2.y)
+    print(p1.x, p1.y) # this will run the function def x() to return __x
+    print(p2.x, p2.y)
+    # check to see the slots are working
+    # p1.__x = 99 # this will also fail - we do not permit direct acces to __x (or __y)
+    # p1.__z = 3 # this will fail - not in the slots
+    print(p2)
