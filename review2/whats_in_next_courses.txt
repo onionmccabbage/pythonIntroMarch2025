@@ -13,6 +13,7 @@ Advanced Python (4 days) .. tba (Sept or Oct...)
 - using the 'with' operator
 - working with databases: create, read, update and delete
 - redirecting output with stdout
+- logging for automation
 - overview of testing
 - profiling and timing code
 - multi-threading
