@@ -1,0 +1,31 @@
+class Point:
+    '''define a point in planar space with numeric values for x and for y'''
+    # we slots to restrict members
+    def __init__(self, x, y):
+        self.x = x # this calls the setter function to set self.__x
+        # self.validateY(y) # this is not common syntax in Python
+        self.y = y
+    @property # this is called a property getter decorator
+    def x(self):
+        '''return the value of property x'''
+        return self.__x # we use name mangling to protect data
+    @x.setter # this is called a property setter decorator
+    def x(self, new_x):
+        if type(new_x) in (int, float):
+            self.__x = new_x
+        else:
+            self.__x = 1 # just set a sensible default (we could raise an exception)
+    # implement the getter and setter for y
+    
+    # def validateY(self, new_y):
+    #     if type(new_y) in (int, float):
+    #         self.__y = new_y
+
+if __name__ == '__main__':
+    p1 = Point(3,4)
+    p2 = Point('3', 2)
+    # when we try to mutate properties, the setter method is used
+    p2.x = 99 # this will run the function to set __x
+    # when we try to access properties, the getter method is used
+    # print(p1.x, p1.y) # this will run the function def x() to return __x
+    # print(p2.x, p2.y)
