@@ -18,5 +18,5 @@ class Person:
 
 if __name__ == '__main__':
     # we can make instances of our 'Person' class
-    pA = Person()
+    pA = Person() # when we create this instance, the __init__ method runs ONCE
     pB = Person()

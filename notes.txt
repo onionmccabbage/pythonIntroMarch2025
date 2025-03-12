@@ -57,13 +57,14 @@ Tuesday
 > exception handling (try-except etc.)
 > debug tools   
 > review exercise
-- sys.  limits
+- sys.maxsize  limits
 > how can we deal with e.g. buffer overflow
 > File input and output - including readline and buffering
 
 Wednesday
-- in Python EVERTHING is an Object - every function, every class every module....
-- any input or output is necessarily slow: I/O bound
+> the next courses: advanced python then further advanced python
+> in Python EVERTHING is an Object - every function, every class every module....
+> any input or output is necessarily slow: I/O bound
 - anything with __nnn__ is part of python (built in features) called 'dunder'
 - functions live in classes, which live in modules which live in packages
 - PEP8 style guide https://pep8.org/
@@ -90,7 +91,7 @@ Wednesday
 - where to go from here:
   https://learnpython.org/
   https://pynative.com/python-exercises-with-solutions/
-  the next courses: advanced python then further advanced python
+
 
 Links
 - Python official site https://python.org
