@@ -1,4 +1,6 @@
-class Point:
+# class Point(object): # we may choose to explicitly inherit from 'object'
+# class Point(): # or we may choose to implicitly inherit from 'object'
+class Point: 
     '''define a point in planar space with numeric values for x and for y'''
     # we slots to restrict members
     __slots__ = ['__x', '__y'] # the only permitted members of this class are here
@@ -29,6 +31,7 @@ class Point:
     # def validateY(self, new_y):
     #     if type(new_y) in (int, float):
     #         self.__y = new_y
+    # we overide the built in __str__ method with our own
     def __str__(self):
         '''define how this class should print'''
         return f'This point is at {self.x} and {self.y}'
